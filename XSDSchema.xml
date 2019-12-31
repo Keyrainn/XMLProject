@@ -1,0 +1,64 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="eShoes">
+    <xs:annotation>
+      <xs:documentation>New document created with EditiX at Tue Dec 30 14:24:39 ICT 2019</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="shoes" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="shoesType" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="shoe" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="shoeQuantity"/>
+                          <xs:element type="xs:string" name="shoeName"/>
+                          <xs:element type="xs:float" name="shoePrice"/>
+                          <xs:element type="xs:float" name="shoeSize"/>
+                        </xs:sequence>
+                        <xs:attribute type="xs:byte" name="shoeId" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="categories" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="gender" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="user">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customer" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:long" name="custIc"/>
+                    <xs:element type="xs:string" name="custName"/>
+                    <xs:element type="xs:string" name="custContact"/>
+                    <xs:element type="xs:string" name="custAddress" minOccurs="0"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:byte" name="id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="staff" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="staffName"/>
+                    <xs:element type="xs:string" name="staffPosition"/>
+                    <xs:element type="xs:string" name="staffSalary"/>
+                    <xs:element type="xs:string" name="staffEmail" minOccurs="0"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:byte" name="id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
