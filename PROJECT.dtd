@@ -1,0 +1,26 @@
+<!-- DTD created at Mon Jun 19 01:30:17 ICT 2017 with EditiX. Please insert an encoding attribute header for converting any DTD  -->
+
+<!ELEMENT eShoes (shoes,shoes,user)>
+<!ELEMENT shoes (shoesType+) >
+<!ELEMENT user (customer+,staff+) >
+<!ELEMENT customer (custIc,custName,custContact,custAddress?) >
+<!ELEMENT staff (staffName,staffPosition,staffSalary,staffEmail?) >
+<!ELEMENT shoesType (shoe+) >
+<!ELEMENT shoe (shoeQuantity,shoeName,shoePrice,shoeSize) >
+<!ELEMENT shoeQuantity (#PCDATA) >
+<!ELEMENT shoeName (#PCDATA) >
+<!ELEMENT shoePrice (#PCDATA) >
+<!ELEMENT shoeSize (#PCDATA) >
+<!ELEMENT custIc (#PCDATA) >
+<!ELEMENT custName (#PCDATA) >
+<!ELEMENT custContact (#PCDATA) >
+<!ELEMENT custAddress (#PCDATA) >
+<!ELEMENT staffName (#PCDATA) >
+<!ELEMENT staffPosition (#PCDATA) >
+<!ELEMENT staffSalary (#PCDATA) >
+<!ELEMENT staffEmail (#PCDATA) >
+<!ATTLIST shoes gender (men|women) #REQUIRED >
+<!ATTLIST shoesType categories CDATA #REQUIRED >
+<!ATTLIST shoe shoeId CDATA #REQUIRED >
+<!ATTLIST customer id CDATA #REQUIRED >
+<!ATTLIST staff id CDATA #REQUIRED >

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New document created with EditiX at Tue Dec 30 14:24:39 ICT 2019 -->
+
+<!DOCTYPE eShoes SYSTEM "PROJECT.dtd">
+
+<eShoes>
+    
+    <shoes gender="men">
+        
+        <shoesType categories="Nike">
+          <shoe shoeId='1'>  
+            <shoeQuantity>0</shoeQuantity>
+            <shoeName>Airmax 90 </shoeName>
+            <shoePrice>489.00 </shoePrice>
+            <shoeSize>41</shoeSize>
+          </shoe>  
+            
+            <shoe shoeId='2'>   
+            <shoeQuantity>12</shoeQuantity>
+            <shoeName>Vapormax </shoeName>
+            <shoePrice>519.00 </shoePrice>
+            <shoeSize>40  </shoeSize>  
+            </shoe>
+            
+            <shoe shoeId='3'>
+            <shoeQuantity>0</shoeQuantity>
+            <shoeName>AirForce 1</shoeName>
+            <shoePrice>359.00</shoePrice>
+            <shoeSize>42</shoeSize>
+            </shoe>
+            
+        </shoesType>
+        
+        <shoesType categories="Adidas">
+            
+            <shoe shoeId='4'>
+            <shoeQuantity>8</shoeQuantity>
+            <shoeName>Samoa Vintage</shoeName>
+            <shoePrice>389.00</shoePrice>
+            <shoeSize>41</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='5'>
+            <shoeQuantity>10</shoeQuantity>
+            <shoeName>Gazelle</shoeName>
+            <shoePrice>440.00</shoePrice>
+            <shoeSize>40</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='6'>
+            <shoeQuantity>9</shoeQuantity>
+            <shoeName>Rivea Og</shoeName>
+            <shoePrice>480.00</shoePrice>
+            <shoeSize>42</shoeSize>
+            </shoe>
+            
+        </shoesType>
+        
+        <shoesType categories="Converse">
+            
+            <shoe shoeId='7'>
+            <shoeQuantity>11</shoeQuantity>
+            <shoeName>Chuck Taylor Classic</shoeName>
+            <shoePrice>189.00</shoePrice>
+            <shoeSize>38</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='8'>
+            <shoeQuantity>12</shoeQuantity>
+            <shoeName>Naked</shoeName>
+            <shoePrice>239.00</shoePrice>
+            <shoeSize>42</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='9'>
+            <shoeQuantity>8</shoeQuantity>
+            <shoeName>Comme Des Cargon</shoeName>
+            <shoePrice>390.00</shoePrice>
+            <shoeSize>39</shoeSize>
+            </shoe>
+            
+        </shoesType>
+        
+        <shoesType categories="Vans">
+            
+            <shoe shoeId='10'>
+            <shoeQuantity>20</shoeQuantity>
+            <shoeName>Old Skool</shoeName>
+            <shoePrice>219.00</shoePrice>
+            <shoeSize>39</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='11'>
+            <shoeQuantity>15</shoeQuantity>
+            <shoeName>Authentic</shoeName>
+            <shoePrice>165.00</shoePrice>
+            <shoeSize>41</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='12'>
+            <shoeQuantity>13</shoeQuantity>
+            <shoeName>Vans X Peanut</shoeName>
+            <shoePrice>369.00</shoePrice>
+            <shoeSize>42</shoeSize>
+            </shoe>
+            
+        </shoesType>
+        
+        
+    </shoes>
+    
+    <shoes gender="women">
+        
+        <shoesType categories="Gucci">
+            
+            <shoe shoeId='13'>
+            <shoeQuantity>15</shoeQuantity>
+            <shoeName>Gucci 88</shoeName>
+            <shoePrice>450.00</shoePrice>
+            <shoeSize>36</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='14'>
+            <shoeQuantity>20</shoeQuantity>
+            <shoeName>Heel 22</shoeName>
+            <shoePrice>379.00</shoePrice>
+            <shoeSize>38</shoeSize>
+            </shoe> 
+            
+            <shoe shoeId='15'>
+            <shoeQuantity>10</shoeQuantity>
+            <shoeName>Gucci Buren</shoeName>
+            <shoePrice>690.00</shoePrice>
+            <shoeSize>37</shoeSize>
+            </shoe>   
+            
+        </shoesType>
+        
+        <shoesType categories="Vincci">
+            
+            <shoe shoeId='16'>
+            <shoeQuantity>15</shoeQuantity>
+            <shoeName>Vincci Boots</shoeName>
+            <shoePrice>518.00</shoePrice>
+            <shoeSize>39</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='17'>
+            <shoeQuantity>10</shoeQuantity>
+            <shoeName>Vincci Crox</shoeName>
+            <shoePrice>189.00</shoePrice>
+            <shoeSize>35</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='18'>
+            <shoeQuantity>14</shoeQuantity>
+            <shoeName>Vincci Sandle</shoeName>
+            <shoePrice>239.00</shoePrice>
+            <shoeSize>36</shoeSize>
+            </shoe>
+            
+        </shoesType>
+        
+        <shoesType categories="Loafer">
+            
+            <shoe shoeId='19'>
+            <shoeQuantity>16</shoeQuantity>
+            <shoeName>Loafer FlipFlop</shoeName>
+            <shoePrice>240.00</shoePrice>
+            <shoeSize>37</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='20'>
+            <shoeQuantity>20</shoeQuantity>
+            <shoeName>Loafer Jascos</shoeName>
+            <shoePrice>320.00</shoePrice>
+            <shoeSize>34</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='21'>
+            <shoeQuantity>20</shoeQuantity>
+            <shoeName>Loafer Tescos</shoeName>
+            <shoePrice>319.00</shoePrice>
+            <shoeSize>38</shoeSize>
+            </shoe>
+            
+        </shoesType>
+        
+        <shoesType categories="Venice">
+            
+            <shoe shoeId='22'>
+            <shoeQuantity>12</shoeQuantity>
+            <shoeName>Venice</shoeName>
+            <shoePrice>469.00</shoePrice>
+            <shoeSize>39</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='23'>
+            <shoeQuantity>20</shoeQuantity>
+            <shoeName>Venice Sala</shoeName>
+            <shoePrice>229.00</shoePrice>
+            <shoeSize>35</shoeSize>
+            </shoe>
+            
+            <shoe shoeId='24'>
+            <shoeQuantity>25</shoeQuantity>
+            <shoeName>Venice  Phantom</shoeName>
+            <shoePrice>439.00</shoePrice>
+            <shoeSize>40</shoeSize>
+            </shoe>
+            
+        </shoesType>
+        
+    </shoes>    
+    
+    <user>
+        
+        <customer id="01">
+            
+            <custIc>961207014325</custIc>
+            <custName>Armani Firdaus</custName>
+            <custContact>017-8274223</custContact>
+            <custAddress>Seremban 2</custAddress>
+            
+        </customer>
+        
+        <customer id="02">
+            
+            <custIc>960629105669</custIc>
+            <custName>Muhammad Danial Azrai</custName>
+            <custContact>018-3697809</custContact>
+            <custAddress>Selayang</custAddress>
+            
+        </customer>
+        
+        <customer id="03">
+            
+            <custIc>970812045674</custIc>
+            <custName>Muhammad Azri</custName>
+            <custContact>013-4654735</custContact>
+            <custAddress>Melaka</custAddress>
+            
+        </customer>
+        
+        <customer id="04">
+            
+            <custIc>940130027685</custIc>
+            <custName>Muhammad Nabil</custName>
+            <custContact>017-6704321</custContact>
+            
+            
+        </customer>
+        
+        <customer id="05">
+            
+            <custIc>950612103546</custIc>
+            <custName>Brandon Primos</custName>
+            <custContact>0198224656</custContact>
+            <custAddress>Kluang</custAddress>
+            
+        </customer>
+        
+        <staff id="11">
+            
+            <staffName>Dzakirin</staffName>
+            <staffPosition>Manager</staffPosition>
+            <staffSalary>RM2400</staffSalary>
+            <staffEmail>kirinto@yahoo.com</staffEmail>
+            
+        </staff>
+        
+        <staff id="21">
+
+            <staffName>Alif Umar</staffName>
+            <staffPosition>Promoter</staffPosition>
+            <staffSalary>RM1800</staffSalary>
+            <staffEmail>alif22@gmail.com</staffEmail>
+
+        </staff>
+
+        <staff id="31">
+            
+            <staffName>Hanis</staffName>
+            <staffPosition>Cashier</staffPosition>
+            <staffSalary>RM1700</staffSalary>
+      
+        </staff>
+
+        <staff id="41">
+
+            <staffName>Ismail</staffName>
+            <staffPosition>Cashier</staffPosition>
+            <staffSalary>RM1700</staffSalary>
+
+        </staff>
+        
+        
+    </user>
+    
+    
+</eShoes>
